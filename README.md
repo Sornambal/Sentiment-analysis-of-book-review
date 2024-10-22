@@ -6,7 +6,11 @@ This project performs sentiment analysis on book reviews using a Naive Bayes cla
 Features
 
 1.Text Preprocessing: Tokenization, stopword removal, and lemmatization using NLTK.
+
 2.Class Imbalance Handling: Oversampling with imblearn's RandomOverSampler to address imbalanced classes.
+
 3.TF-IDF Vectorization: Feature extraction using bigrams.
+
 4.Naive Bayes Classifier: Predicts sentiment using the Multinomial Naive Bayes algorithm.
+
 5.Model Evaluation: Includes classification report showing precision, recall, F1-score, and accuracy.
